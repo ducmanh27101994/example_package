@@ -161,7 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        YourVendor\UserPackage\UserPackageServiceProvider::class,
+        FmcExample\UserPackage\UserPackageServiceProvider::class,
 
         /*
          * Package Service Providers...

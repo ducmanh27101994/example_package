@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use YourVendor\UserPackage\Http\Controllers\AuthController;
+use FmcExample\UserPackage\Http\Controllers\AuthController;
 
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);

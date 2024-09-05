@@ -1,9 +1,9 @@
 {
-    "name": "your-vendor/user-package",
+    "name": "fmc-example/user-package",
     "description": "Example",
     "autoload": {
         "psr-4": {
-            "YourVendor\\UserPackage\\": "src/"
+            "FmcExample\\UserPackage\\": "src/"
         }
     },
     "require": {

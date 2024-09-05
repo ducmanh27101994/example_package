@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\UserPackage\Http\Controllers;
+namespace FmcExample\UserPackage\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -12,7 +12,6 @@ class AuthController extends Controller
 {
     public function register(Request $request)
     {
-
         $request->validate([
             'name' => 'required|string',
             'email' => 'required|string|email|unique:users',

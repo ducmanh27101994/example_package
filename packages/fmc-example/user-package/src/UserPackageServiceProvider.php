@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\UserPackage;
+namespace FmcExample\UserPackage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class UserPackageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('YourVendor\UserPackage\Http\Controllers\AuthController');
+        $this->app->make('FmcExample\UserPackage\Http\Controllers\AuthController');
     }
 
     /**
