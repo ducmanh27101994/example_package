@@ -1,0 +1,12 @@
+{
+    "name": "your-vendor/user-package",
+    "description": "Example",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\UserPackage\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^8.0"
+    }
+}
